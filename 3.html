@@ -8,23 +8,25 @@
             background-color: red;
         }
         .test2{
-            position: fixed;
-            right: 0;
-            bottom:100px;
+
             background-color: blue;
+            position: absolute;
+            left: 30px;
+            top: 20px;
+            z-index: 1;
         }
         .test3{
             background-color: green;
+            position: absolute;
+            left: 60px;
+            top: 40px;
+
         }
-        div{
+         .box div{
             width: 200px;
             height: 200px;
         }
         .box{
-            margin-top: 100px;
-            margin-left: 100px;
-            position: absolute;
-            height: 1000px;
             width: 1000px;
             background-color: purple;
         }
@@ -35,6 +37,6 @@
 <div class="test1">1</div>
 <div class="test2">2</div>
 <div class="test3">3</div>
-</div>>
+</div>
 </body>
 </html>
